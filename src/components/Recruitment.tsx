@@ -1,17 +1,6 @@
-interface ChatBubbleProps {
-  text: string;
-  position: string;
-  image: string;
-}
 
-const ChatBubble: React.FC<ChatBubbleProps> = ({ text, position, image }) => (
-  <div className={`absolute ${position} flex items-center`}>
-    <div className="bg-white text-gray-800 p-3 rounded-lg shadow-md">
-      {text}
-    </div>
-    <img src={image} alt="avatar" className="w-10 h-10 rounded-full ml-3" />
-  </div>
-);
+
+
 
 const Recruitment = () => {
   return (

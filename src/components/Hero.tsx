@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import ChatBubble from './ChatBubble';
+
 
 const Hero = () => {
   return (
