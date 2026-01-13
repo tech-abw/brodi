@@ -80,7 +80,7 @@ const Hero = () => {
     alt="Recruitment process"
     width={750}
     height={700}
-    className="w-[100%] h-[220px] object-cover"
+    className="w-[100%] h-[200px] object-cover"
   />
 </div>
 

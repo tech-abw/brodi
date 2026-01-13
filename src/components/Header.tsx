@@ -27,12 +27,23 @@ const Header = () => {
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden bg-white absolute w-full shadow-md z-20">
-          <nav className="flex flex-col items-center space-y-4 py-4">
-            <Link href="#" className="text-gray-600 hover:text-green-500">Cómo funciona</Link>
-            <Link href="#" className="text-gray-600 hover:text-green-500">Nosotros</Link>
-            <Link href="#" className="text-gray-600 hover:text-green-500">Preguntas</Link>
-            <Link href="#" className="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600">Únete ahora</Link>
+        <div className="fixed inset-0 bg-[#00594D] z-50 md:hidden">
+          <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+            <Link href="/">
+              <Image src="/images/brodi.png" alt="Brodi Logo" width={120} height={40} />
+            </Link>
+            <button onClick={() => setIsOpen(false)}>
+              <X size={28} className="text-white" />
+            </button>
+          </div>
+          <nav className="flex flex-col items-center justify-center h-full -mt-16 space-y-8">
+            <Link href="#" className="text-white text-2xl">Cómo funciona</Link>
+            <Link href="#" className="text-white text-2xl">Nosotros</Link>
+            <Link href="#" className="text-white text-2xl">Preguntas</Link>
+            <div className="flex flex-col items-center space-y-4 absolute bottom-20">
+              <Link href="#" className="bg-[#99DF63] text-black px-8 py-1 rounded-md text-lg">Inicia sesión</Link>
+              <Link href="#" className="border border-white text-white px-9 py-1 rounded-md text-lg">Regístrate</Link>
+            </div>
           </nav>
         </div>
       )}
