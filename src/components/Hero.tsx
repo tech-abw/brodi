@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Hero = () => {
   return (
     <section className="py-20 relative overflow-hidden">
-        <div className="absolute -top-5 -left-0">
+        <div className="absolute  hidden lg:block -top-5 -left-0">
                     <Image
   src="/images/liston1.png"
   alt="Recruitment process"
@@ -13,7 +13,7 @@ const Hero = () => {
   className="w-[100%] h-[450px] object-cover "
 />
  </div>
-      <div className="absolute -top-5 -right-50">
+      <div className="absolute  hidden lg:block -top-5 -right-50">
                     <Image
   src="/images/liston2.png"
   alt="Recruitment process"
@@ -21,6 +21,25 @@ const Hero = () => {
   height={300}
   className="w-[950px] h-[850px] object-cover "
 />
+</div>
+      <div className="absolute  block lg:hidden -top-5 -left-50">
+                    <Image
+  src="/images/liston1.png"
+  alt="Recruitment process"
+  width={350}
+  height={300}
+  className="w-[100%] h-[450px] object-cover "
+/>
+ </div>
+      <div className="absolute  block lg:hidden top-30 -right-60">
+                    <Image
+  src="/images/liston2.png"
+  alt="Recruitment process"
+  width={350}
+  height={300}
+  className="w-[900px] h-[350px] object-cover "
+/>
+
  </div>
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center">
@@ -46,16 +65,25 @@ const Hero = () => {
               <p className="text-xs mt-1">Te ayudamos a encontrar empleo operativo de forma rápida y sencilla, sin complicaciones.</p>
               <p className="text-xs text-left mt-2 opacity-75">11:14 AM</p>
             </ChatBubble>*/}
-          <div className="">
-          <Image
-  src="/images/brodi-header.png"
-  alt="Recruitment process"
-  width={750}
-  height={700}
-  className="w-[100%] h-[450px] object-cover "
-/>
-           
-          </div>
+  <div className="hidden lg:block">
+  <Image
+    src="/images/brodi-header.png"
+    alt="Recruitment process"
+    width={750}
+    height={700}
+    className="w-[100%] h-[450px] object-cover"
+  />
+</div>
+<div className="block lg:hidden">
+  <Image
+    src="/images/banner-brodi-mobile.png"
+    alt="Recruitment process"
+    width={750}
+    height={700}
+    className="w-[100%] h-[220px] object-cover"
+  />
+</div>
+
         </div>
       </div>
     </section>

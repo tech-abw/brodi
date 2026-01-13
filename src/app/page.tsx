@@ -10,7 +10,7 @@ import SuccessStories from "@/components/SuccessStories";
 import DirectContact from "@/components/DirectContact";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
-
+import RecruitmentMobile from "@/components/Recruitment-mobile";
 export default function Home() {
   return (
     <main style={{ backgroundColor: "#f8f8f8" }}>
@@ -18,6 +18,7 @@ export default function Home() {
       <Hero />
       
       <Recruitment />
+      <RecruitmentMobile />
       <Stats />
       <Steps />
       <SuccessStories />

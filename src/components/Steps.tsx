@@ -21,11 +21,11 @@ const Step: React.FC<StepProps> = ({ number, title, description }) => (
 const Steps = () => {
   return (
    <section className="py-20 w-[95%] mx-auto ">
-  <div className="container mx-auto px-4 text-center relative">
-    <div className="absolute -top-30 -right-[40px]">
+  <div className=" container  mx-auto px-4 text-center relative">
+    <div className=" hidden lg:block absolute -top-30 -right-[40px]">
  <Image src="/images/liston3.png" alt="Recruitment process" width={450} height={200} className="w-[700px] h-[700px] object-cover " />
 </div>
-<div className="absolute -bottom-50 -left-[100px]">
+<div className="hidden lg:block absolute -bottom-50 -left-[100px]">
  <Image src="/images/liston3.png" alt="Recruitment process" width={450} height={200} className="w-[800px] h-[450px] object-cover " />
 </div>
 
