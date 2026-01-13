@@ -3,7 +3,7 @@ const Recruitment = () => {
     <section className="hidden lg:block bg-gradient-to-b from-[#129C59] to-[#00594D] text-white py-20 sm:py-60 relative w-[90%] mx-auto flex justify-center items-center rounded-2xl">
       {/* Texto principal */}
       <div className="container mx-auto px-4 text-center relative z-10">
-        <h2 className="text-2xl sm:text-4xl font-semibold font-sora">
+        <h2 className="text-2xl sm:text-4xl font-medium font-sora">
           Deja atrás los procesos lentos de reclutamiento
         </h2>
         <p className="mt-4 max-w-lg sm:max-w-2xl mx-auto text-sm sm:text-base">

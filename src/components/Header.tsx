@@ -14,12 +14,23 @@ const Header = () => {
         <Link href="/">
           <Image src="/images/brodi.png" alt="Brodi Logo" width={120} height={40} />
         </Link>
-        <nav className="hidden md:flex space-x-6 items-center">
-          <Link href="#" className="text-gray-600 hover:text-green-500">Cómo funciona</Link>
-          <Link href="#" className="text-gray-600 hover:text-green-500">Nosotros</Link>
-          <Link href="#" className="text-gray-600 hover:text-green-500">Preguntas</Link>
-          <Link href="#" className="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600">Únete ahora</Link>
-        </nav>
+         {/* Menú centrado */}
+  <nav className="hidden md:flex space-x-6 items-center absolute left-1/2 transform -translate-x-1/2">
+    <Link href="#" className="text-gray-600 hover:text-green-500">Cómo funciona</Link>
+    <Link href="#" className="text-gray-600 hover:text-green-500">Nosotros</Link>
+    <Link href="#" className="text-gray-600 hover:text-green-500">Preguntas</Link>
+    
+  </nav>
+  <div className="hidden md:flex space-x-4">
+  <Link href="#" className="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600">
+    Únete ahora
+  </Link>
+  <Link href="#" className="bg-[#00594D] text-white px-4 py-2 rounded-md hover:bg-green-600">
+    Regístrate
+  </Link>
+</div>
+
+
         <div className="md:hidden">
           <button onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? <X size={28} /> : <Menu size={28} />}

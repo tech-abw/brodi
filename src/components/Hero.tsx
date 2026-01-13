@@ -22,7 +22,7 @@ const Hero = () => {
   className="w-[950px] h-[850px] object-cover "
 />
 </div>
-      <div className="absolute  block lg:hidden -top-5 -left-50">
+  <div className="absolute  block lg:hidden -top-5 -left-50">
                     <Image
   src="/images/liston1.png"
   alt="Recruitment process"
@@ -39,14 +39,13 @@ const Hero = () => {
   height={300}
   className="w-[900px] h-[350px] object-cover "
 />
-
  </div>
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center">
-          <h1 className="text-4xl md:text-6xl font-semibold leading-tight text-gray-800 font-sora">
+          <h1 className="text-4xl md:text-6xl font-medium leading-tight text-gray-800 font-sora">
             Contrata talento operativo
             <br />
-          <span className="bg-gradient-to-r from-[#189A55] to-[#99DF63] bg-clip-text text-transparent font-semibold">
+          <span className="bg-gradient-to-r from-[#189A55] to-[#99DF63] bg-clip-text text-transparent font-medium font-sora">
   en tiempo récord
 </span>
 

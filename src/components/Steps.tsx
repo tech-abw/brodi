@@ -20,7 +20,7 @@ const Step: React.FC<StepProps> = ({ number, title, description }) => (
 
 const Steps = () => {
   return (
-   <section className="py-20 w-[95%] mx-auto ">
+   <section className="py-10 w-[95%] mx-auto ">
   <div className=" container  mx-auto px-4 text-center relative">
     <div className=" hidden lg:block absolute -top-30 -right-[40px]">
  <Image src="/images/liston3.png" alt="Recruitment process" width={450} height={200} className="w-[700px] h-[700px] object-cover " />
@@ -29,7 +29,7 @@ const Steps = () => {
  <Image src="/images/liston3.png" alt="Recruitment process" width={450} height={200} className="w-[800px] h-[450px] object-cover " />
 </div>
 
-    <h2 className="text-5xl font-semibold text-gray-800 font-sora">Pasos</h2>
+    <h2 className="text-5xl font-medium text-gray-800 font-sora">Pasos</h2>
     <div className="mt-16 grid md:grid-cols-3 gap-12 z-10">
       <Step
         number="1"
