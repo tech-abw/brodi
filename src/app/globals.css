@@ -1,4 +1,8 @@
 @import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
 @layer utilities {
   .animate-fadeInUp {
     animation: fadeInUp 0.8s ease-out both;

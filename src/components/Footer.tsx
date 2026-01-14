@@ -33,8 +33,6 @@ const Footer = () => {
     <Link href="#" className="hover:underline">Términos y condiciones</Link>
     <Link href="#" className="hover:underline">Aviso de privacidad</Link>
   </div>
-
-  
 </div>
         <div  className="block lg:hidden mt-12">
             <Link href="#" className="hover:underline block text-center mb-2 text-sm">Términos y condiciones</Link>
