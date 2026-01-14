@@ -62,16 +62,16 @@ const Steps = () => {
             alt="Recruitment process"
             width={450}
             height={200}
-            className="w-[700px] h-[700px] object-cover"
+            className="w-[700px] h-[680px] object-cover"
           />
         </div>
-        <div className="hidden lg:block absolute -bottom-50 -left-[100px]">
+        <div className="hidden lg:block absolute -bottom-40 -left-[100px]">
           <Image
             src="/images/liston3.png"
             alt="Recruitment process"
             width={450}
             height={200}
-            className="w-[800px] h-[450px] object-cover"
+            className="w-[800px] h-[440px] object-cover"
           />
         </div>
 
