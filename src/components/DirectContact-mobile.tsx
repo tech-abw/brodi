@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import { useState, useEffect, useRef } from 'react';
 
-const DirectContact = () => {
+const DirectContactMobile = () => {
   const sectionRef = useRef<HTMLDivElement | null>(null);
   const [isVisible, setIsVisible] = useState(false);
 
@@ -28,7 +28,7 @@ const DirectContact = () => {
   return (
     <section
       ref={sectionRef}
-      className="hidden md:block bg-[url('/images/fondo2comp.webp')] bg-cover text-white relative overflow-hidden pt-20"
+      className="block md:hidden bg-[url('/images/fondo2comp.webp')] bg-cover text-white relative overflow-hidden pt-20"
     >
       <div className="container mx-auto px-4 grid md:grid-cols-2 gap-8 items-center relative z-10">
         <div
@@ -36,29 +36,32 @@ const DirectContact = () => {
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}
         >
-          <h2 className="text-3xl md:text-5xl  font-bold font-sora mb-6 mt-10 ">
-           Habla con candidatos que sí responden
-          </h2>
-          <p className="mb-8 max-w-md text-center mx-auto">
-            Filtra mejor desde el inicio y habla solo con candidatos disponibles. Reclutamiento operativo ágil, directo y sin fricción.
-          </p>
-          {/* Chat bubbles */}
           <div className="relative w-full max-w-sm h-48">
-            <div className="absolute -top-65 left-0 lg:-top-70 lg:left-30">
+            <div className="absolute -top-25 left-0 ">
               <div className="inline-block bg-[#E9BE11] text-white text-sm font-semibold px-4 py-2 rounded-lg rounded-bl-none">
                 ¡Hola! Busco trabajo de repartidor
               </div>
             </div>
-            <div className="absolute top-16 -right-50">
-              <div className="inline-block bg-[#A855F7] text-white text-sm font-semibold px-4 py-2 rounded-lg rounded-br-none">
-                ¿Cuál es tu disponibilidad?
-              </div>
-            </div>
-            <div className="absolute -top-80 left-0 lg:top-32 lg:left-8">
+             <div className=" absolute -top-10 left-0 lg:top-32 lg:left-8">
               <div className="inline-block bg-[#3B82F6] text-white text-sm font-semibold px-4 py-2 rounded-lg rounded-bl-none">
                 Tengo experiencia de 2 años
               </div>
             </div>
+          <h2 className="text-3xl md:text-5xl  font-bold font-sora mb-6 mt-20 ">
+          <br></br>
+           Habla con candidatos que sí responden
+          </h2>
+          <p className="mb-8 max-w-md text-center mx-auto mb-4">
+            Filtra mejor desde el inicio y habla solo con candidatos disponibles. Reclutamiento operativo ágil, directo y sin fricción.
+          
+          </p>
+          {/* Chat bubbles */}
+          <div className="absolute top-60 -left-0">
+              <div className="inline-block bg-[#A855F7] text-white text-sm font-semibold px-4 py-2 rounded-lg rounded-br-none">
+                ¿Cuál es tu disponibilidad?
+              </div>
+            </div>
+           
           </div>
         </div>
 
@@ -80,4 +83,4 @@ const DirectContact = () => {
   );
 };
 
-export default DirectContact;
+export default DirectContactMobile;

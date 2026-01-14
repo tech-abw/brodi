@@ -27,7 +27,7 @@ const faqs = [
 
 const FAQ = () => {
   return (
-    <section className="py-20 bg-gray-50 relative overflow-hidden">
+    <section id="faq" className="py-20 bg-gray-50 relative overflow-hidden">
       <div className="container mx-auto px-4 relative">
         <h2 className="text-5xl font-medium text-gray-800 font-sora text-center mb-16">
           Preguntas frecuentes

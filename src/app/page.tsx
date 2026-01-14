@@ -11,6 +11,7 @@ import DirectContact from "@/components/DirectContact";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 import RecruitmentMobile from "@/components/Recruitment-mobile";
+import DirectContactMobile from "@/components/DirectContact-mobile";
 export default function Home() {
   return (
     <main style={{ backgroundColor: "#f8f8f8" }}>
@@ -23,6 +24,7 @@ export default function Home() {
       <Steps />
       <SuccessStories />
       <DirectContact />
+      <DirectContactMobile />
       <FAQ />
       <Footer />
     </main>

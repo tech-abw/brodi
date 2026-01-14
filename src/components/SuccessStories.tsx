@@ -47,7 +47,7 @@ const stories = [
 
 const SuccessStories = () => {
   return (
-    <section className="py-20">
+    <section  id="casos" className="py-20">
       <div className="container mx-auto px-4 text-center w-[95%]">
         <h2 className="text-5xl font-semibold text-gray-800 font-sora mb-16">Casos de éxito</h2>
         <div className="grid md:grid-cols-3 gap-8">
