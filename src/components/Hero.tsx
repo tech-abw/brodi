@@ -60,13 +60,13 @@ const Hero = () => {
       </div>
 
       {/* Contenido principal */}
-      <div className="container mx-auto px-4 relative z-10">
+      <div className="container mx-auto px-4 relative z-10 pt-20">
         <div
           className={`text-center transition-all duration-1000 ease-out ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}
         >
-          <h1 className="text-4xl md:text-6xl font-medium leading-tight text-gray-800 font-sora">
+          <h1 className="text-4xl md:text-6xl font-semibold leading-tight text-gray-800 font-sora">
             Contrata talento operativo
             <br />
             <span className="bg-gradient-to-r from-[#189A55] to-[#99DF63] bg-clip-text text-transparent font-medium font-sora">
@@ -101,7 +101,7 @@ const Hero = () => {
               alt="Recruitment process"
               width={400}
               height={400}
-              className="w-full h-[400px] object-cover rounded-2xl"
+              className="w-full h-[400px] object-contain rounded-2xl"
             />
             </div>
             {/* <div className="absolute top-0 left-1/4 pr-[72px] ">

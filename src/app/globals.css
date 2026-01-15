@@ -3,6 +3,10 @@
 html {
   scroll-behavior: smooth;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-sora);
+}
 @layer utilities {
   .animate-fadeInUp {
     animation: fadeInUp 0.8s ease-out both;

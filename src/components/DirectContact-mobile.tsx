@@ -28,7 +28,7 @@ const DirectContactMobile = () => {
   return (
     <section
       ref={sectionRef}
-      className="block md:hidden bg-[url('/images/fondo2comp.webp')] bg-cover text-white relative overflow-hidden pt-20"
+      className="block md:hidden bg-[url('/images/fondo2comp.webp')] bg-cover text-white overflow-hidden pt-20"
     >
       <div className="container mx-auto px-4 grid md:grid-cols-2 gap-8 items-center relative z-10">
         <div

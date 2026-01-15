@@ -24,7 +24,7 @@ const Step: React.FC<StepProps & { visible: boolean; delay: string }> = ({
       <div className="flex items-center justify-center w-16 h-16 rounded-full bg-[#046950] text-white font-semibold text-4xl transition-transform duration-500 hover:rotate-6">
         {number}
       </div>
-      <h3 className="mt-2 text-xl font-semibold text-gray-800 font-sora">{title}</h3>
+      <h3 className="mt-2 text-2xl font-semibold text-gray-800 font-sora">{title}</h3>
     </div>
     <p className="text-gray-600 font-sora">{description}</p>
   </div>

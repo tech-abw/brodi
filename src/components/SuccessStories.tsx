@@ -6,7 +6,7 @@ const stories = [
     description: 'Conecta con repartidores, choferes y agentes de call center ya filtrados. Ellos aplican por WhatsApp, tu recibes solo candidatos que cumplen tus requisitos.',
     name: 'Fernando',
     role: 'Fundador',
-    imageUrl: '/images/photo8.webp',
+    imageUrl: '/images/photo2.webp',
   },
   {
     title: 'Lorem ipsum',
@@ -20,28 +20,28 @@ const stories = [
     description: 'Conecta con repartidores, choferes y agentes de call center ya filtrados. Ellos aplican por WhatsApp, tu recibes solo candidatos que cumplen tus requisitos.',
     name: 'Roberto',
     role: 'Fundador',
-    imageUrl: '/images/photo3.webp',
+    imageUrl: '/images/photo2.webp',
   },
   {
     title: 'Lorem ipsum',
     description: 'Conecta con repartidores, choferes y agentes de call center ya filtrados. Ellos aplican por WhatsApp, tu recibes solo candidatos que cumplen tus requisitos.',
     name: 'Héctor',
     role: 'Fundador',
-    imageUrl: '/images/photo4.webp',
+    imageUrl: '/images/photo2.webp',
   },
   {
     title: 'Lorem ipsum',
     description: 'Conecta con repartidores, choferes y agentes de call center ya filtrados. Ellos aplican por WhatsApp, tu recibes solo candidatos que cumplen tus requisitos.',
     name: 'Alberto',
     role: 'Fundador',
-    imageUrl: '/images/photo5.webp',
+    imageUrl: '/images/photo2.webp',
   },
   {
     title: 'Lorem ipsum',
     description: 'Conecta con repartidores, choferes y agentes de call center ya filtrados. Ellos aplican por WhatsApp, tu recibes solo candidatos que cumplen tus requisitos.',
     name: 'Jorge',
     role: 'Nombre puesto placeholder',
-    imageUrl: '/images/photo6.webp',
+    imageUrl: '/images/photo2.webp',
   },
 ];
 

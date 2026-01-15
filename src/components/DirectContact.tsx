@@ -28,33 +28,35 @@ const DirectContact = () => {
   return (
     <section
       ref={sectionRef}
-      className="hidden md:block bg-[url('/images/fondo2comp.webp')] bg-cover text-white relative overflow-hidden pt-20"
+      className="hidden md:block bg-[url('/images/fondo2comp.webp')] bg-cover text-white  overflow-hidden pt-20"
     >
       <div className="container mx-auto px-4 grid md:grid-cols-2 gap-8 items-center relative z-10">
         <div
           className={`text-center transition-all duration-700 ease-out ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}
+
         >
-          <h2 className="text-3xl md:text-5xl  font-bold font-sora mb-6 mt-10 ">
-           Habla con candidatos que sí responden
-          </h2>
-          <p className="mb-8 max-w-md text-center mx-auto">
-            Filtra mejor desde el inicio y habla solo con candidatos disponibles. Reclutamiento operativo ágil, directo y sin fricción.
-          </p>
-          {/* Chat bubbles */}
-          <div className="relative w-full max-w-sm h-48">
-            <div className="absolute -top-65 left-0 lg:-top-70 lg:left-30">
+        <div className="">
               <div className="inline-block bg-[#E9BE11] text-white text-sm font-semibold px-4 py-2 rounded-lg rounded-bl-none">
                 ¡Hola! Busco trabajo de repartidor
               </div>
-            </div>
-            <div className="absolute top-16 -right-50">
+        </div>
+          <h2 className="text-3xl md:text-5xl  font-bold font-sora mb-6 mt-10 ">
+           Habla con candidatos que sí responden
+          </h2>
+          <p className="mb-8  text-center mx-auto">
+            Filtra mejor desde el inicio y habla solo con candidatos disponibles. Reclutamiento operativo ágil, directo y sin fricción.
+          </p>
+          {/* Chat bubbles */}
+          <div className="flex  flex-row gap-4 h-48 gap-10 items-center justify-center">
+            
+            <div className="">
               <div className="inline-block bg-[#A855F7] text-white text-sm font-semibold px-4 py-2 rounded-lg rounded-br-none">
                 ¿Cuál es tu disponibilidad?
               </div>
             </div>
-            <div className="absolute -top-80 left-0 lg:top-32 lg:left-8">
+            <div className="pb-20">
               <div className="inline-block bg-[#3B82F6] text-white text-sm font-semibold px-4 py-2 rounded-lg rounded-bl-none">
                 Tengo experiencia de 2 años
               </div>
@@ -63,7 +65,7 @@ const DirectContact = () => {
         </div>
 
         <div
-          className={`relative flex justify-center transition-all duration-700 ease-out delay-300 ${
+          className={`relative flex justify-center transition-all duration-700 ease-out delay-300  ${
             isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-90'
           }`}
         >
