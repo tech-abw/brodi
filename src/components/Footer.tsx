@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { Facebook, Instagram, Linkedin, MessageCircle } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -10,10 +9,10 @@ const Footer = () => {
           <div>
             <Image src="/images/brodi.png" alt="Brodi Logo" width={250} height={80} />
             <div className="flex justify-center md:justify-start space-x-4 mt-6 text-center">
-              <Link href="#" className="hover:opacity-75"><Facebook size={24} /></Link>
-              <Link href="#" className="hover:opacity-75"><Instagram size={24} /></Link>
-              <Link href="#" className="hover:opacity-75"><Linkedin size={24} /></Link>
-              <Link href="#" className="hover:opacity-75"><MessageCircle size={24} /></Link>
+              <Link href="#" className="hover:opacity-75"><Image src="/images/fb.png" alt="Facebook" width={24} height={24} /></Link>
+              <Link href="#" className="hover:opacity-75"><Image src="/images/ig.png" alt="Instagram" width={24} height={24} /></Link>
+              <Link href="#" className="hover:opacity-75"><Image src="/images/linkedin.png" alt="LinkedIn" width={24} height={24} /></Link>
+              <Link href="#" className="hover:opacity-75"><Image src="/images/tiktok.png" alt="TikTok" width={24} height={24} /></Link>
             </div>
           </div>
           <div >

@@ -96,9 +96,6 @@ const RecruitmentMobile = () => {
           visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
         }`}
       >
-      
-  
-
           <h2 className="text-2xl sm:text-4xl font-medium font-sora">
             Deja atrás los procesos lentos de reclutamiento
           </h2>
@@ -113,7 +110,7 @@ const RecruitmentMobile = () => {
 
       {/* Línea 4: chat bubbles + avatares */}
       <div className="pt-20 w-full h-full flex flex-col justify-between items-center ">
-        <div className="flex flex-row justify-between gap-50 w-[90%]">
+        <div className="flex flex-row justify-between gap-30 w-[100%]">
          
         <div
           className={` z-10 transition-all duration-700 ease-out delay-1100 ${
@@ -141,7 +138,7 @@ const RecruitmentMobile = () => {
         </div>
         
 
-        <div className="flex flex-row py-10 items-center gap-10 w-[90%]">
+        <div className="flex flex-row py-10 items-center gap-10 w-[100%]">
           <div
             className={`z-10 transition-all duration-700 ease-out delay-1200 ${
               visible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-10"
@@ -151,7 +148,8 @@ const RecruitmentMobile = () => {
               Encontré este trabajo gracias a Brodi
             </div>
           </div>
-
+          </div>
+          <div className="flex flex-row justify-end items-center gap-10 w-[100%]">
           {/* Avatar 6 */}
           <div
             className={`z-10 transition-all duration-700 ease-out delay-1400 ${
@@ -181,7 +179,7 @@ const RecruitmentMobile = () => {
           </div>
         </div>
 
-        <div className="flex flex-row py-10 justify-start gap-10">
+        <div className="flex flex-row pb-10 justify-start">
           
 
           {/* Avatar 7 */}
@@ -196,6 +194,8 @@ const RecruitmentMobile = () => {
               className="w-12 h-12 rounded-full object-cover transition duration-300 ease-in-out hover:scale-110 hover:rotate-6"
             />
           </div>
+          </div>
+          <div className="flex flex-row justify-end items-center gap-10 w-[100%]">
           {/* Bubble 5 */}
           <div
             className={`z-10 transition-all duration-700 ease-out delay-1300 ${
