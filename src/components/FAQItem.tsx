@@ -5,10 +5,11 @@ import { useState } from 'react';
 interface FAQItemProps {
   question: string;
   answer: string;
+  isOpenDefault?: boolean;
 }
 
-const FAQItem: React.FC<FAQItemProps> = ({ question, answer }) => {
-  const [isOpen, setIsOpen] = useState(false);
+const FAQItem: React.FC<FAQItemProps> = ({ question, answer, isOpenDefault = false }) => {
+  const [isOpen, setIsOpen] = useState(isOpenDefault);
 
   return (
     <div className="border-b border-gray-200 py-4">

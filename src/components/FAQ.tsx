@@ -57,7 +57,7 @@ const FAQ = () => {
         {/* Caja FAQ */}
         <div className="max-w-3xl mx-auto bg-white p-8 rounded-2xl shadow-md relative z-10">
           {faqs.map((faq, index) => (
-            <FAQItem key={index} question={faq.question} answer={faq.answer} />
+            <FAQItem key={index} question={faq.question} answer={faq.answer} isOpenDefault={index === 0} />
           ))}
         </div>
       </div>

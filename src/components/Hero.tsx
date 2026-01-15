@@ -95,13 +95,34 @@ const Hero = () => {
           }`}
         >
           <div className="hidden lg:block">
+            <div>
             <Image
               src="/images/brodi-header.png"
               alt="Recruitment process"
-              width={750}
-              height={700}
-              className="w-full h-[450px] object-cover"
+              width={400}
+              height={400}
+              className="w-full h-[400px] object-cover rounded-2xl"
             />
+            </div>
+            {/* <div className="absolute top-0 left-1/4 pr-[72px] ">
+              <Image
+              src="/images/img-text-brodi.png"
+              alt="Recruitment process"
+              width={300}
+              height={150}
+              className="  "
+            />
+            </div>
+             <div className="absolute bottom-0 left-[4%] pr-[4px] ">
+              <Image
+              src="/images/logo-brodi.png"
+              alt="Recruitment process"
+              width={70}
+              height={70}
+              className="  "
+            />
+            </div> */}
+
           </div>
           <div className="block lg:hidden">
             <Image
