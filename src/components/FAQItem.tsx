@@ -20,11 +20,15 @@ const FAQItem: React.FC<FAQItemProps> = ({ question, answer, isOpenDefault = fal
         <span>{question}</span>
         <span>{isOpen ? '−' : '+'}</span>
       </button>
-      {isOpen && (
-        <div className="mt-4 text-gray-600">
+      <div
+        className={`overflow-hidden transition-all duration-500 ease-in-out ${
+          isOpen ? 'max-h-screen opacity-100 mt-4' : 'max-h-0 opacity-0'
+        }`}
+      >
+        <div className="text-gray-600">
           <p>{answer}</p>
         </div>
-      )}
+      </div>
     </div>
   );
 };
